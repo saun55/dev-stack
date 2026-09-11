@@ -15,11 +15,11 @@ const Navbar = () => {
       <img src={logo} alt="Text Logo" />
 
       <ul className="flex gap-4 font-bold">
-        <li><a href="">Home</a></li>
-        <li><a href="">Technologies</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li className="hover:text-[#D91B7E]"><a href="">Home</a></li>
+        <li className="hover:text-[#D91B7E]"><a href="">Technologies</a></li>
+        <li className="hover:text-[#D91B7E]"><a href="">Projects</a></li>
+        <li className="hover:text-[#D91B7E]"><a href="">About</a></li>
+        <li className="hover:text-[#D91B7E]"><a href="">Contact</a></li>
       </ul>
 
       <div>
