@@ -3,7 +3,7 @@ import type { TechnologiesType } from "./Technologies/TechnologiesType";
 
 import { GrClose } from "react-icons/gr";
 
-import { Bounce, toast } from "react-toastify";
+import { Bounce, toast,  } from "react-toastify";
 
 interface StackCartType {
   selectedCart: TechnologiesType[];
