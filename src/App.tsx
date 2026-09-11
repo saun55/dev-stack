@@ -7,6 +7,7 @@ import BannerSection from './components/bannerSection'
 import Technologies from './components/Technologies'
 import type { TechnologiesType } from './components/Technologies/TechnologiesType'
 import { ToastContainer } from 'react-toastify'
+import Footer from './components/Footer'
 
 
 const TechnologiesPromise=async():Promise<TechnologiesType[]>=>{
@@ -35,7 +36,7 @@ function App() {
 
       </Suspense>
 
-
+<Footer/>
 
     </>
   )                    

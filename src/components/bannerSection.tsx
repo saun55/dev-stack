@@ -11,10 +11,10 @@ const BannerSection = () => {
 
     <div className="w-full text-center md:w-1/2 md:text-left">
 
-      <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl">
+      <h1 className=" font-bold sm:text-5xl md:text-6xl">
         Build Your Ideal
         <br />
-        <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent sm:text-5xl md:text-6xl">
+        <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-4xl font-extrabold text-transparent sm:text-5xl md:text-6xl">
           Development Stack
         </span>
       </h1>
@@ -26,7 +26,7 @@ const BannerSection = () => {
       </p>
 
       <div className="flex justify-center gap-3 pt-5 md:justify-start">
-        <button className="btn rounded-[10px] border-none bg-gradient-to-r from-orange-400 to-orange-500 font-bold text-white">
+        <button className="btn rounded-[10px] border-none bg-gradient-to-r from-orange-500 to-pink-500 font-bold text-white">
           Explore Technologies
         </button>
 

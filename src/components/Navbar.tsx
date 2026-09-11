@@ -1,3 +1,5 @@
+
+
 import logo from "../assets/logo-text.png";
 const Navbar = () => {
   return (
@@ -32,19 +34,19 @@ const Navbar = () => {
     </div>
 
     {/* Mobile Navbar */}
-    <div className="flex items-center justify-between md:hidden">
+    <div className="grid grid-cols-3 items-center md:hidden">
 
-      <div className="text-2xl">
+      <div className="text-2xl justify-self-start">
         ☰
       </div>
 
       <img
         src={logo}
         alt="Text Logo"
-        className="w-28"
+        className="w-28 justify-self-center"
       />
 
-      <div className="flex gap-1">
+      <div className="flex gap-1 justify-self-end">
         <button className="btn btn-sm rounded-3xl border-none">
           Sign in
         </button>
